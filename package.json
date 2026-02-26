@@ -1,0 +1,9 @@
+{
+  "name": "lan-chess",
+  "version": "1.0.0",
+  "description": "2-player LAN chess with full rules",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
