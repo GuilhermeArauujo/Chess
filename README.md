@@ -21,3 +21,5 @@ Then open:
 - `http://localhost:3000` on two devices in the same LAN (or two browser tabs)
 - Enter the same room ID on both clients
 - First joiner is White, second joiner is Black
+
+*Vibecode with GPT codex*
