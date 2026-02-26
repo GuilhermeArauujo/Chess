@@ -22,4 +22,4 @@ Then open:
 - Enter the same room ID on both clients
 - First joiner is White, second joiner is Black
 
-*Vibecode with GPT codex*
+*Vibecoded with GPT codex*
