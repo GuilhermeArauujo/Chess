@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LAN Chess</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="layout">
+      <section class="panel">
+        <h1>LAN Chess</h1>
+        <p>Share room ID with your opponent on LAN (or use 2 tabs).</p>
+        <form id="join-form" class="join-form">
+          <label for="room">Room ID</label>
+          <input id="room" name="room" value="default-room" required />
+          <button type="submit">Join Room</button>
+        </form>
+        <div class="status">
+          <p><strong>Your role:</strong> <span id="role">Not joined</span></p>
+          <p><strong>Turn:</strong> <span id="turn">-</span></p>
+          <p><strong>State:</strong> <span id="state">Waiting...</span></p>
+        </div>
+        <button id="reset" type="button">Reset game</button>
+      </section>
+      <section class="board-wrap">
+        <div id="board" class="board"></div>
+      </section>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
